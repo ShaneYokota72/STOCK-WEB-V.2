@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="content" content="TAIHEI Trading Company STOCK">
+    <link rel="icon" href="TAIHEI.png" type="image/x-icon">
+    <title>ABOUT US</title>
+    <link rel="stylesheet" href="./main.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+
+
+<body>
+    <div class="navbar">
+        <img src="./taiheilogo.png" alt="Company Logo" class="companylogo">
+        <nav>
+            <ul id="menulist">
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="index.php">STOCK</a></li>
+                <li><a href="rental.html">RENTAL</a></li>
+                <li><a href="assessment.html">ASSESSMENT</a></li>
+                <li><a href="company.html">COMPANY</a></li>
+                <li><a href=""><span class="material-icons" class="callicon">
+                    call
+                    </span></a></li>
+                <li><a href=""><i class="material-icons" class="mailicon">
+                    mail
+                </i></a></li>
+            </ul>
+        </nav>
+        
+        <a onclick="togglemenu();" class="menuicon"><i class="material-icons">
+            menu
+        </i></a>
+        
+    </div>
+
+
+    <div class="aboutustitle">
+        <h1 style="text-align:center;">ABOUT US</h1>
+
+    </div>
+
+
+    <div class="aboutusnav">
+        <div class="WSButton" >
+            <button style="width: 100%;margin: 0 auto;display: block;"> <a href="#WS" style="text-decoration: none;display:flex; align-items: center; font-stretch: ultra-condensed; font-size: 30px; justify-content: center;"><img src="./icon01.png" alt="We Sell Icon">&nbsp;&nbsp;WE SELL</a></button>
+        </div>
+        <div class="RButton">
+            <button style="width: 100%; margin: 0 auto;display: block;"> <a href="#R" style="text-decoration: none;display:flex; align-items: center; font-stretch: ultra-condensed; font-size: 30px; justify-content: center;"><img src="./icon02.png" alt="Rental Icon">&nbsp;&nbsp;RENTAL</a> </button>
+        </div>
+        <div class="WPButton">
+            <button style="width: 100%; margin: 0 auto;display: block;"> <a href="#WP" style="text-decoration: none;display:flex; align-items: center; font-stretch: ultra-condensed; font-size: 30px; justify-content: center;"><img src="./icon03.png" alt="We Purchase Icon">&nbsp;&nbsp;WE PURCHASE</a> </button>
+        </div>
+
+    </div>
+
+    <div class="container1" id="WS">
+        <div class="weselltext">
+            <h1 style="font-size: 56px; font-family:Franklin Gothic Medium;">WE SELL</h1>
+        </div>
+        <div class="wesellcontent">
+            <h3 class="wesellh3">We always offer attractive information
+                of equipment for sale throughout the globe.
+            </h3>
+            <p class="wesellp">For more than 50 years since our establishment, we have been selling used construction machines with a focus on mobile cranes and hydraulic excavators throughout Japan and across the globe. We also sell new cranes and excavators from top manufacturers whom our main clients. Our greatest strength is the experience and expertise that we have built up the relationships of mutual trust with our customers. As well as our long-term valued customers, we look forward to building relationships of trust with new customers. We promise firm support on a diverse array of requests. Come to us for a consultation. We look forward to hearing from you soon.</p>
+        </div>
+        <div class=" wesellimage">
+            <img src="./wesell.jpg" alt="Selling Vehicle Image" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="wesellbutton">
+            <button class="stocklinkbutton"><a href="index.html" style="color: white;">&gt;<b>STOCK</b></a></button>
+        </div>
+    </div>
+
+
+    <div class="container2" id="R">
+        <div class="rentaltext">
+            <h1 style="font-size: 56px; font-family:Franklin Gothic Medium; text-align: right; margin-right: 5%;">RENTAL</h1>
+        </div>
+        <div class="rentalimage">
+            <img src="./rental.jpg" alt="Rental Image" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="rentalcontent">
+            <h3>
+                Responding flexibly to needs throughout Japan with a scale that exceeds 13,000 gross tons capacity.
+            </h3>
+            <p>
+                We have a vast array of machine models, including rough terrain cranes, all terrain cranes, and crawler cranes for bare rental. Not only bare rental, operated crane rental is also available at our subsidiary, Taiho Crane Lease. Don&#39;t hesitate to contact us, even if you&#39;re interested in a model that we don&#39;t usually carry. We will bring together the comprehensive strengths of Taihei Trading and Taiho Crane Lease to meet all your rental needs. We have our offices located in Hokkaido, Miyagi, Tokyo, and Osaka.
+            </p>
+        </div>
+        <div class="rentalbutton">
+            <button class="rentallinkbutton"><a href="rental.html" style="color: white;"><b>&gt;RENTAL</b></a></button>
+        </div>
+    </div>
+
+    <div class="container3" id="WP">
+        <div class="wepurchasetext">
+            <h1 style="font-size: 56px; font-family:Franklin Gothic Medium; text-align: left;">WE PURCHASE</h1>
+        </div>
+        <div class="wepurchaseimage">
+            <img src="./WEPURCHASE.jpg" alt="We Purchase Image" style="width: 100%; height: auto;">
+        </div>
+        <div class="wepurchasecontent">
+            <h3>
+                We will assess your machines with sincerity and confidence.
+            </h3>
+            <p>
+                The construction machines that belongs to our customers are valuable assets, and the assessment of equipment involves a great deal of responsibility. From many years of experience, a solid track record, and a rich network, both in Japan and the rest of the world, we are well versed in the latest market needs. Please rest assured that we will assess your machines with sincerity and confidence.
+                Our sales representatives in Hokkaido, Miyagi, Tokyo, and Osaka are also available locally to offer prompt service with care. We look forward to receiving inquiries from you in all locations throughout Japan.
+            </p>
+        </div>
+        <div class="wepurchasebutton">
+            <button class="wepurchaselinkbutton"><a href="assessment.html" style="color: white;"><b>&gt;ASSESSMENT</b></a></button>
+        </div>
+    </div>
+
+    <script>
+
+        var menuList = document.getElementById("menulist");
+        menulist.style.maxHeight = "0px";
+        function togglemenu(){
+            if (menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "270px"
+            } else {
+                menuList.style.maxHeight = "0px"
+            }
+
+        }
+
+    </script>
+
+<section class="footer">
+    <h4 style="color: white;">CONTACT US</h4>
+    <p style="color: white;">Equipment for sale, crane rental, sell your crane and excavator, and more.<br>Click here for inquiries.</p>
+    <div class="icons" >
+        <a href="mailto:xxxxxxx@gmail.com" style="color: white; text-decoration: none;"><i><span class="material-icons">mail</span></i>Inquiry</a>
+        <a href="tel:03-3553-7811" style="color: white; text-decoration: none;"><i><span class="material-icons">call</span></i>Contact</a>
+    </div>
+</section>
+
+<footer>
+    <div class="container4">
+        <div class="TaiheiLogo">
+            <img src="./Taiheilogo2.png" alt="Taihei Trading Logo">
+        </div>
+        <address class="address" style="color: white;">
+            8F Nagai Building, 1-7-7 Hatchobori,<br>
+            Chuo-ku, Tokyo 104-0032, Japan
+        </address>
+        <div class="TEL" style="color: white;">
+            TEL:+81 3 3553 7811
+        </div>
+        <div class="FAX" style="color: white;">
+            FAX:+81 3 3553 7821
+        </div>
+        <div class="langbutton">
+            <button class="changelang"><a href="#" style="text-decoration: none;">Japanese</a></button>
+        </div>
+    </div>
+    
+    <div class="bottomnav">
+        <ul>
+            <li><a href="aboutus.html"><b>ABOUT US</b></a></li>
+            <li><a href="index.html"><b>STOCK</b></a></li>
+            <li><a href="rental.html"><b>RENTAL</b></a></li>
+            <li><a href="assessment.html"><b>ASSESSMENT</b></a></li>
+            <li><a href=""><b>COMPANY</b></a></li>
+        </ul>
+    </div>
+
+    <div class="copyright">
+        <p style="color: white; text-align: center;">Copyright © TAIHEI TRADING CO., LTD.</p>
+        <br>
+    </div>
+</footer>
+</body>
+
+
+
+
+</html>
